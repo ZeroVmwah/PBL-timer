@@ -51,15 +51,6 @@ function start() {
 
 
 
-                    /*issue*/
-                    const element = document.querySelector('.circle::before');
-                    element.addEventListener(breakTittle.classList.contains('active'), () => {
-                    const element = document.querySelector('.circle::before');
-                    element.style.backgroundImage = url('https://www.how-to-draw-funny-cartoons.com/images/cartoon-light-8.gif');
-                    });
-
-
-
                 } else {
                     // continue work
                     workMinutes = workTime;
