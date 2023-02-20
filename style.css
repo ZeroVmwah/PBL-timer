@@ -94,7 +94,7 @@ section {
     border-radius: 50%;
     background-color: var(--color-secondary);
     position: relative;
-      /*problem*/
+   
 }
 
     .circle::before {
@@ -104,7 +104,6 @@ section {
         height: 97%;
         border-radius: 50%;
         background-color: var(--color-primary);
-        background-image: url('https://www.how-to-draw-funny-cartoons.com/images/cartoon-light-6.gif');
         background-size: 17.1rem 21rem;
         background-position-x: center;
     }
@@ -139,7 +138,7 @@ section {
     left: 0.5rem;
     transform: scale(2);
     bottom: 19rem; 
-    opacity:0;
+    opacity:1;
     background-color: transparent;
     cursor: pointer;
 }
@@ -148,6 +147,6 @@ section {
     position: relative;
     transform: scale(2);
     bottom: 19rem; 
-    opacity:0;
+    opacity:1;
     display: none;
 }
