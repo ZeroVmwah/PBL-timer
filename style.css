@@ -1,10 +1,10 @@
 :root {
     font-size: 62.5%; /* 1rem = 10px */
 
-    --color-primary: hsl(235, 35%, 19%);
-    --color-secondary: hsl(45, 100%, 50%);
+    --color-primary:  #1f2641;
+    --color-secondary: #f7c94b;
     --color-font: hsla(0, 0%, 100%, 0.902);
-    --color-shadow: hsl(235, 36%, 35%);
+    --color-shadow: #2e3267;
 }
 
 * {
@@ -17,7 +17,7 @@ html, body {
     height: 100%;
     background-color: var(--color-primary);
     font-size: 1.6rem;
-    font-family: 'Open sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p, i, h1 {
@@ -29,7 +29,7 @@ i {
 }
 
 h1 {
-    font-size: 3.2rem;
+    font-size: 3.5rem;
 }
 
 
@@ -113,7 +113,7 @@ section {
 
 .time {
     position: relative;
-    top: 19rem;
+    top: 21rem;
     display: flex;
     flex-direction: row;
 }
